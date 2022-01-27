@@ -558,8 +558,8 @@ section{
     width: 100%;
 }
 
-.box-skill .content2{
-    margin: 35rem auto;
+.box-skill{
+    margin: 60rem auto;
 }
 
 .box-bar{
@@ -576,6 +576,10 @@ section{
  @media(max-width:400px){
     html{
         font-size: 50%;
+    }
+
+    .box-skill{
+        margin: 40rem auto;
     }
  }
 
