@@ -573,7 +573,7 @@ section{
     
  }
 
- @media(max-width:400px){
+ @media(max-width:465px){
     html{
         font-size: 50%;
     }
