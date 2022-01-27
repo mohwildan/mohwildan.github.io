@@ -549,7 +549,9 @@ section{
         justify-content: center;
     }
 
-    
+    .content2 h1{
+        margin-top: 30rem;
+    }
 
     
 .right{
