@@ -19,7 +19,7 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background: rgb(134, 12, 12);
+    background: rgb(24, 23, 23);
     box-sizing: border-box;
 }
 
@@ -328,6 +328,110 @@ section{
     animation: html 5s forwards;
 }
 
+.contactus {
+    position: relative;
+    width: 1005;
+    padding: 2.5rem 6.3rem  ;
+}
+
+.contactus .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+   
+}
+
+.contactus .title h2{
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+
+
+.contact{
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 5px 2.2rem rgba(0, 0, 0, .15);
+}
+
+.box-c{
+    position: relative;
+    margin-top: 2.2rem;
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact h3{
+    color: #EA3232;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+
+/* form */
+
+.from-box{
+    position: relative;
+    width: 100%;
+}
+
+.from-box .row50{
+    display: flex;
+    gap: 1.3rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 50%;
+}
+
+.from-box .row100 .input-box{
+    width: 100%;
+}
+
+.input-box span{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.input-box input{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #000;
+}
+
+.input-box textarea{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #000;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+
+.input-box input[type="submit"]{
+    background: #EA3232;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.input-box ::placeholder{
+    color: #999;
+    text-transform: lowercase;
+}
+
 @keyframes html {
     0% {
         width: 0%;
@@ -417,7 +521,7 @@ section{
         left: 0;
         background-color: #fff;
         text-align: center;
-        box-shadow: rgba(0,0,0,.1);
+        box-shadow: rgba(0,0,0,.5);
         clip-path: polygon(0% 0%,100% 0%,100% 0%,0% 0%);
         transition: .6S;
     }
@@ -459,6 +563,10 @@ section{
 }
 
 .box-bar{
+    width: 100%;
+}
+
+.box-c{
     width: 100%;
 }
 
